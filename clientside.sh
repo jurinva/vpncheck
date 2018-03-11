@@ -64,7 +64,7 @@ function slack {
 
 function log {
   logmsg=`date '+%F %H:%M:%S`" $msg"
-  echo $logmsg >> /var/log/slackping.log
+  echo $logmsg >> /var/log/vpncheck.log
 #  slack
 }
 
